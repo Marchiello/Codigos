@@ -1,0 +1,14 @@
+Dentro da 'main', temos as variáveis "n" como 0, e "resultado" como 0.
+Após isso, declaramos o Scanner e  mudamos o valor da variável "n" a partir do que foi lido no Scanner     * No 'for', temos a variável "i", que após ser calcalulado a multiplicação entre "n" e o atual "i", é acrecido a ela 1 até chegar em 10.
+Por exemplo, quando "i" for 1, ele fará a multiplicação entre 1 e n, e após isso, mostrará o resultado.
+Quando "i" for 2, ele fará a multiplicação entre 2 e n, e após isso, mostrará o resultado.
+Quando "i" for 3, ele fará a multiplicação entre 3 e n, e após isso, mostrará o resultado.
+Quando "i" for 4, ele fará a multiplicação entre 4 e n, e após isso, mostrará o resultado.
+Quando "i" for 5, ele fará a multiplicação entre 5 e n, e após isso, mostrará o resultado.
+Quando "i" for 6, ele fará a multiplicação entre 6 e n, e após isso, mostrará o resultado.
+Quando "i" for 7, ele fará a multiplicação entre 7 e n, e após isso, mostrará o resultado.
+Quando "i" for 8, ele fará a multiplicação entre 8 e n, e após isso, mostrará o resultado.
+Quando "i" for 9, ele fará a multiplicação entre 9 e n, e após isso, mostrará o resultado.
+Quando "i" for 10, ele fará a multiplicação entre 10 e n, e após isso, mostrará o resultado.
+Como o 'for' determinou que o programa deve rodar somente até quando "i" for menor ou igual a 10, o programa chegou ao fim.
+Este programa é o exemplo de uma tabuada.
