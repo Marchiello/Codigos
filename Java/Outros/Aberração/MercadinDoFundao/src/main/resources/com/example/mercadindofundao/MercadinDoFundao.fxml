@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="738.0" prefWidth="1290.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mercadindofundao.MercadoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0fe4ff" height="738.0" layoutX="1.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="1290.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="110.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="1290.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#5b59ff" height="304.0" layoutX="338.0" layoutY="226.0" stroke="BLACK" strokeType="INSIDE" width="528.0" />
+      <TableView fx:id="Tabela" layoutX="345.0" layoutY="233.0" prefHeight="291.0" prefWidth="512.0">
+        <columns>
+          <TableColumn fx:id="codTabela" prefWidth="84.0" text="CÓDIGO" />
+          <TableColumn fx:id="Nome" prefWidth="114.0" text="NOME" />
+            <TableColumn fx:id="QTD" prefWidth="124.0" text="QTD" />
+            <TableColumn fx:id="Total" prefWidth="189.0" text="TOTAL" />
+        </columns>
+      </TableView>
+      <Text layoutX="40.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MF - MERCADIN DO FUNDÃO" wrappingWidth="597.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="42.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="90.0" layoutX="18.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" width="312.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="90.0" layoutX="17.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="312.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="83.0" layoutX="16.0" layoutY="432.0" stroke="BLACK" strokeType="INSIDE" width="314.0" />
+      <Text fill="WHITE" layoutX="31.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CÓDIGO" wrappingWidth="110.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="24.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTIDADE" wrappingWidth="165.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="25.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VALOR UNITÁRIO" wrappingWidth="233.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="83.0" layoutX="18.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" width="311.0" />
+      <Text fill="WHITE" layoutX="25.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VALOR TOTAL" wrappingWidth="177.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="25.0" layoutX="338.0" layoutY="544.0" stroke="BLACK" strokeType="INSIDE" width="858.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="90.0" layoutX="882.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" width="312.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="90.0" layoutX="17.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" width="1253.0" />
+      <Text fill="WHITE" layoutX="897.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBTOTAL" wrappingWidth="165.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="90.0" layoutX="882.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="312.0" />
+      <Text fill="WHITE" layoutX="897.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL RECEBIDO" wrappingWidth="213.0">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="90.0" layoutX="882.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" width="312.0" />
+      <Text fill="WHITE" layoutX="896.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TROCO" wrappingWidth="165.13671875">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="25.0" layoutX="339.0" layoutY="574.0" stroke="BLACK" strokeType="INSIDE" width="859.0" />
+      <Text fill="WHITE" layoutX="30.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$" wrappingWidth="35.63671875">
+         <font>
+            <Font name="Arial Bold" size="26.0" />
+         </font>
+      </Text>
+      <Rectangle fill="#5b59ff" height="117.0" layoutX="1.0" layoutY="621.0" stroke="BLACK" strokeType="INSIDE" width="1290.0" />
+      <Text fill="WHITE" layoutX="27.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$" wrappingWidth="37.13671875">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="897.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$" wrappingWidth="37.13671875">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="897.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$" wrappingWidth="37.13671875">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="897.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R$" wrappingWidth="37.13671875">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Text>
+      <VBox layoutX="13.0" layoutY="621.0" prefHeight="117.0" prefWidth="1283.0">
+         <children>
+            <GridPane prefHeight="132.0" prefWidth="948.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="AdicionarProduto" mnemonicParsing="false" onAction="#AdicionarProdutos" prefHeight="68.0" prefWidth="205.0" text="ADICIONAR PRODUTO">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="RemoverProduto" mnemonicParsing="false" onAction="#RemoverProdutos" prefHeight="68.0" prefWidth="205.0" text="REMOVER PRODUTO" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="AlterarQuantidade" mnemonicParsing="false" onAction="#AlterarQuantidades" prefHeight="70.0" prefWidth="206.0" text="ALTERAR QNTD" textAlignment="CENTER" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="CancelarCompra" mnemonicParsing="false" onAction="#CancelaCompras" prefHeight="68.0" prefWidth="206.0" text="CANCELAR COMPRA" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="Pagar" mnemonicParsing="false" onAction="#RealizarPagamento" prefHeight="69.0" prefWidth="199.0" text="PAGAR" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="AdmProdutos" mnemonicParsing="false" onAction="#AdministrarProdutos" prefHeight="69.0" prefWidth="205.0" text="ADMIN. PRODUTOS" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+      <TextField fx:id="Codigo" layoutX="26.0" layoutY="269.0" prefHeight="49.0" prefWidth="297.0">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font></TextField>
+      <TextField fx:id="Quantidade" layoutX="25.0" layoutY="369.0" prefHeight="50.0" prefWidth="298.0">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font></TextField>
+      <Label fx:id="ValorUnitario" layoutX="70.0" layoutY="462.0" prefHeight="49.0" prefWidth="213.0" text="0,00" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="ValorTotal" layoutX="72.0" layoutY="558.0" prefHeight="49.0" prefWidth="213.0" text="0,00" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="Subtotal" layoutX="939.0" layoutY="269.0" prefHeight="49.0" prefWidth="213.0" text="0,00" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="Troco" layoutX="938.0" layoutY="479.0" prefHeight="49.0" prefWidth="213.0" text="0,00" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="NomeProduto" layoutX="28.0" layoutY="142.0" prefHeight="60.0" prefWidth="797.0" text="NOME DO PRODUTO" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="32.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="367.0" layoutX="1202.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" width="27.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#5b59ff" height="367.0" layoutX="1233.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" width="27.0" />
+      <TextField fx:id="TotalRecebido" layoutX="939.0" layoutY="370.0" prefHeight="29.0" prefWidth="244.0">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
